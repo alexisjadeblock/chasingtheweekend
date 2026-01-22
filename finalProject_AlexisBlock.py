@@ -24,7 +24,7 @@ Note: This game is meant to be played on a 1300 by 750 (standard computer screen
 import pygame, random
 import pygame.mixer as mixer
 pygame.init()
-
+pygame.mixer.init()
 
 # create a window
 w = 1300
